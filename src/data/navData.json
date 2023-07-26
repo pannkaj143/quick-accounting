@@ -1,0 +1,30 @@
+{
+  "nav": [
+    {
+      "nav_name": "Home",
+      "link": "/quick-accounting",
+      "type": "",
+      "full_width": false,
+      "sub_nav": []
+    },
+    {
+      "nav_name": "About",
+      "link": "/about",
+      "type": "",
+      "sub_nav": []
+    },
+    {
+      "nav_name": "Services",
+      "link": "/service-v6",
+      "type": "",
+      "sub_nav": []
+    },
+    
+    {
+      "nav_name": "Contact",
+      "link": "/contact",
+      "type": "",
+      "sub_nav": []
+    }
+  ]
+}
