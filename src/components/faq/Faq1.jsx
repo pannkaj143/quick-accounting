@@ -57,7 +57,7 @@ const Faq1 = () => {
                     <Accordion.Body className="accordion-body">
                       <p>
                       No! We offer fixed fees linked to the value of what we provide. 
-                      We're not always the cheapest and as with many things in life the cheapest 
+                      We&apos;'re not always the cheapest and as with many things in life the cheapest 
                       is often the most expensive in the long run. However, we are not expensive and 
                       we offer excellent value for what we provide. Most importantly we never undertake 
                       work without agreeing the fee arrangements in advance so you always know where you stand.
