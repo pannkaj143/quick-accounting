@@ -39,7 +39,7 @@ const Faq1 = () => {
                       <p>
                       If your existing accountant is offering you an excellent pro-active service at a fair 
                       fee then stick with them. However, different accountants will save you different amounts 
-                      of tax and provide different levels of business advice. If your present accountant doesn't 
+                      of tax and provide different levels of business advice. If your present accountant doesn&apos;t 
                       offer the type of service you want and that we do offer, then changing over to us is very easy. 
                       It involves just one letter from you and we take care of everything else for you.
                       </p>
@@ -57,7 +57,7 @@ const Faq1 = () => {
                     <Accordion.Body className="accordion-body">
                       <p>
                       No! We offer fixed fees linked to the value of what we provide. 
-                      We&apos;'re not always the cheapest and as with many things in life the cheapest 
+                      We&apos;re not always the cheapest and as with many things in life the cheapest 
                       is often the most expensive in the long run. However, we are not expensive and 
                       we offer excellent value for what we provide. Most importantly we never undertake 
                       work without agreeing the fee arrangements in advance so you always know where you stand.
@@ -70,12 +70,12 @@ const Faq1 = () => {
                       className="accordion-header"
                       id="headingThree"
                     >
-                      I've just had my accounts done and don't need an accountant until next year, so is there any need to contact you now?
+                      I&apos;ve just had my accounts done and don&apos;t need an accountant until next year, so is there any need to contact you now?
                     </Accordion.Header>
 
                     <Accordion.Body className="accordion-body">
                       <p>
-                      We can't over emphasise the importance of tax planning at an early stage, not crisis driven advice. 
+                      We can&apos;t over emphasise the importance of tax planning at an early stage, not crisis driven advice. 
                       Ideally you do tax planning before the year even starts but after that, the earlier the better. 
                       The same is applicable to all areas of advice and we are about helping you change the future, 
                       not just reporting what has already happened.
@@ -95,7 +95,7 @@ const Faq1 = () => {
                       <p>
                       Yes. It often helps to see your business, books and records, etc at first hand and we are always 
                       happy to invest our time without charge to show you what we can do. Of course, 
-                      if you prefer to visit us, that's fine too.
+                      if you prefer to visit us, that&apos;s fine too.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
@@ -110,8 +110,8 @@ const Faq1 = () => {
 
                     <Accordion.Body className="accordion-body">
                       <p>
-                        When's good for you? Let us know and we'll do our utmost to help. 
-                        If you need to see somebody urgently, we're always out and about and can 
+                        When&apos;s good for you? Let us know and we&apos;ll do our utmost to help. 
+                        If you need to see somebody urgently, we&apos;re always out and about and can 
                         arrange to see you very quickly.
                       </p>
                     </Accordion.Body>
@@ -126,7 +126,7 @@ const Faq1 = () => {
 
                     <Accordion.Body className="accordion-body">
                       <p>
-                      We're not in the business of providing low quotes just to get your business 
+                      We&apos;re not in the business of providing low quotes just to get your business 
                       for the first year and then raising the fees. We want you as a long term client who 
                       trusts us to do what we say we will do. We quote what we anticipate to be a fair fee for 
                       the value provided and would only anticipate normal inflationary increases if the work stays 
@@ -143,12 +143,12 @@ const Faq1 = () => {
                       className="accordion-header"
                       id="headingSeven"
                     >
-                      You seem to be offering so much that I'm just not used to from my present accountant. How do I know you will deliver?
+                      You seem to be offering so much that Im just not used to from my present accountant. How do I know you will deliver?
                     </Accordion.Header>
 
                     <Accordion.Body className="accordion-body">
                       <p>
-                      All we can say is that as accountants, you'd expect us to be a bit analytical, which is true. 
+                      All we can say is that as accountants, you&apos;d expect us to be a bit analytical, which is true. 
                       Our clients are used to this level of service. You are also more than welcome to speak with 
                       some of our existing clients who have the experience of our service. See what our clients say.
                       </p>
