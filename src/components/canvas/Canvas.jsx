@@ -59,7 +59,7 @@ const Canvas = ({ bladeMode }) => {
         <div className="offcanvas__body">
           <div className="offcanvas__left">
             <div className="offcanvas__logo">
-              <Link href="/digital-marketing">
+              <Link href="/quick-accounting">
                 <Image
                   priority
                   style={{ width: "auto", height: "auto" }}

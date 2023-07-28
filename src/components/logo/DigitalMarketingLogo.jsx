@@ -8,7 +8,7 @@ const DigitalMarketingLogo = () => {
   return (
     <>
       <div className="header__logo-2">
-        <Link href={"/digital-marketing"} className="logo-dark">
+        <Link href={"/quick-accounting"} className="logo-dark">
           <Image
             priority
             width={136}
@@ -17,7 +17,7 @@ const DigitalMarketingLogo = () => {
             alt="Site Logo"
           />
         </Link>
-        <Link href={"/digital-marketing"} className="logo-light">
+        <Link href={"/quick-accounting"} className="logo-light">
           <Image
             priority
             width={100}
