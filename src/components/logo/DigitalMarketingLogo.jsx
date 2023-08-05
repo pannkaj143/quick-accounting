@@ -11,8 +11,8 @@ const DigitalMarketingLogo = () => {
         <Link href={"/quick-accounting"} className="logo-dark">
           <Image
             priority
-            width={136}
-            height={45}
+            width={220}
+            height={40}
             src={LogoBlack}
             alt="Site Logo"
           />
@@ -20,8 +20,8 @@ const DigitalMarketingLogo = () => {
         <Link href={"/quick-accounting"} className="logo-light">
           <Image
             priority
-            width={100}
-            height={33}
+            width={220}
+            height={40}
             src={LogoWhite2}
             alt="Site Logo"
           />
