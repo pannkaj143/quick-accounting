@@ -62,7 +62,7 @@ const Canvas = ({ bladeMode }) => {
               <Link href="/quick-accounting">
                 <Image
                   priority
-                  style={{ width: "auto", height: "auto" }}
+                  style={{ width: "220", height: "40" }}
                   src={logoWhite2}
                   alt="Offcanvas Logo"
                 />
