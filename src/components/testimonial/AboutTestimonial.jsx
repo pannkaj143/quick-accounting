@@ -43,14 +43,10 @@ const AboutTestimonial = () => {
                       <div className="testimonial__slide">
                         <div className="testimonial__inner-2">
                           <h2 className="testimonial__title-2">
-                            Amazing digital service
+                            Amazing accounting service
                           </h2>
                           <p className="testimonial__text-2">
-                            We were there right at the beginning just when the
-                            concept for search engine optimisation taking office
-                            and the full of internet. So wewe’ve grown to employ
-                            than 50 talented specialists with diverse
-                            experiences and broad skill sets of huge markers.
+                          "I've been with Qucik Accounting for years. They're knowledgeable, responsive, and go above and beyond. Highly recommend!"
                           </p>
                           <h3 className="testimonial__author">Adam Syndera</h3>
                           <h4 className="testimonial__role">CEO, Agency</h4>
