@@ -198,7 +198,6 @@ const About = () => {
           <div id="smooth-content">
             <AboutHero />
             <AboutStory />
-            <AboutCounter />
             <CreativeAgencyBrand />
             <CreativeAgencyCTA />
             <AboutTestimonial />

@@ -1,3 +1,5 @@
+/** @format */
+
 import React, { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger, ScrollSmoother, ScrollToPlugin } from "@/plugins";
@@ -55,7 +57,8 @@ const CreativeAgencyAbout = () => {
             <div className="col-xxl-12">
               <div className="sec-title-wrapper">
                 <h2 className="sec-title title-anim">
-                We unite accounting and business  <br /> for optimized financial management <br /> and sustainable growth.
+                  We unite accounting and business <br /> for optimized
+                  financial management <br /> and sustainable growth.
                 </h2>
               </div>
             </div>
@@ -75,11 +78,27 @@ const CreativeAgencyAbout = () => {
             <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
               <div className="about__mid-7 text-anim">
                 <p>
-                Our success is intertwined with yours, and we prioritize our clients prosperity. We collaborate closely, serving diverse businesses and individuals.
+                  Our success is intertwined with yours, and we prioritize our
+                  clients prosperity. We collaborate closely, serving diverse
+                  businesses and individuals.
                 </p>
-                <p>We believe in investing time to all new clients. In our experience this initial time allows us to get a strong understanding of your business or situation, which will help us provide the best possible service to you.</p>
                 <p>
-                In addition to comprehensive accounting services, we offer support in business development and specialized tax matters.
+                  Quick Accounting team have over 7 years of experience
+                  servicing clients at various stages of their business all over
+                  the United Kingdom. Whether you are self employed, a new start
+                  up, a growing business or an established business we know that
+                  every business is different, that's why we offer a fully
+                  tailored service to meet you and your businesses needs.
+                </p>
+                <p>
+                  We believe in investing time to all new clients. In our
+                  experience this initial time allows us to get a strong
+                  understanding of your business or situation, which will help
+                  us provide the best possible service to you.
+                </p>
+                <p>
+                  In addition to comprehensive accounting services, we offer
+                  support in business development and specialized tax matters.
                 </p>
                 {/* <Image
                   priority

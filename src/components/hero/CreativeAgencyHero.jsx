@@ -1,3 +1,5 @@
+/** @format */
+
 import React, { useEffect } from "react";
 import { gsap } from "gsap";
 import { SplitText } from "@/plugins";
@@ -119,11 +121,14 @@ const CreativeAgencyHero = () => {
                 </div>
                 <div className="service__hero-right-2 hero7__thum-anim">
                   <h1 className="title creative">
-                  Accounting <span className="solution">Solution</span>{" "}
+                    Accounting <span className="solution">Solution</span>{" "}
                   </h1>
                   <p className="animate_content">
                     {" "}
-                    Based in London, we offer friendly and personalized services tailored to your needs, including Business Accounts, Corporate/Personal Tax, Payroll, and VAT.
+                    Based in London, we offer friendly and personalized services
+                    tailored to your needs, including Business Accounts,
+                    Corporate/Personal Tax, Bookkeeping, Management Accounts,
+                    Construction Industry Scheem, Payroll, and VAT.
                   </p>
                   <Image
                     priority
