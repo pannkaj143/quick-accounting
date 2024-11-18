@@ -83,13 +83,13 @@ const CreativeAgencyAbout = () => {
                   businesses and individuals.
                 </p>
                 <p>
-                  Quick Accounting team have over 7 years of experience
-                  servicing clients at various stages of their business all over
-                  the United Kingdom. Whether you are self employed, a new start
-                  up, a growing business or an established business we know that
-                  every business is different, that's why we offer a fully
-                  tailored service to meet you and your businesses needs.
-                </p>
+                  Quick Accounting team have over 7 years of experience servicing clients at
+                  various stages of their business all over the United Kingdom. Whether you
+                  are self-employed, a new startup, a growing business, or an established
+                  business, we know that every business is different; that&apos;s why we
+                  offer a fully tailored service to meet you and your business&apos; needs.
+                  </p>
+
                 <p>
                   We believe in investing time to all new clients. In our
                   experience this initial time allows us to get a strong
