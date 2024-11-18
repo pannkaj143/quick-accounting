@@ -1,9 +1,13 @@
+/** @format */
+
 import Link from "next/link";
 import React from "react";
 import ArrowBlack from "../../../public/assets/imgs/icon/arrow-black.png";
 import Image from "next/image";
 
 const CreativeAgencyFooter = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <>
       <footer className="footer__area-2 pt-130">
@@ -21,7 +25,6 @@ const CreativeAgencyFooter = () => {
               </div>
             </div>
           </div>
-
           <div className="footer__middle-2">
             <div className="row">
               <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
@@ -29,15 +32,18 @@ const CreativeAgencyFooter = () => {
                   <div className="location">
                     <h3>London</h3>
                     <p>
-                    48, Myrtle Road, <br />
-                      London RM3 8XS.
+                      Office 3, 5th Floor, Lambourne House,
+                      <br />
+                      7 Western Road,
+                      <br />
+                      Romford, England, RM1 3LP
                     </p>
                   </div>
                   <div className="location">
                     <h3>Contact</h3>
                     <p>
-                    020 4542 0907 <br />
-                    info@quick-accounting.co.uk
+                      020 4542 0907 <br />
+                      info@quick-accounting.co.uk
                     </p>
                   </div>
                 </div>
@@ -69,8 +75,8 @@ const CreativeAgencyFooter = () => {
               <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-5">
                 <div className="footer__copyright-2">
                   <p>
-                    © 2023 | Quick Accounting Ltd{" "}| Developed by-
-                    <a href="https://www.karadinfotech.com/" target="_blank"> 
+                    © {currentYear} | Quick Accounting Ltd | Developed by-
+                    <a href="https://www.karadinfotech.com/" target="_blank">
                       Karad Infotech Ltd
                     </a>
                   </p>

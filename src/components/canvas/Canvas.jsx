@@ -1,3 +1,5 @@
+/** @format */
+
 import { faMagnifyingGlass, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
@@ -72,16 +74,14 @@ const Canvas = ({ bladeMode }) => {
               <h3 className="social-title">Follow Us</h3>
               <ul>
                 <li>
-                  <a href="#">Dribbble</a>
+                  <a href="https://www.instagram.com/quickaccountingltd/profilecard/?igsh=MXNoYndrejF2a2s2NQ==">
+                    Instagram
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Behance</a>
-                </li>
-                <li>
-                  <a href="#">Instagram</a>
-                </li>
-                <li>
-                  <a href="#">Facebook</a>
+                  <a href="https://www.facebook.com/profile.php?id=100091489584909">
+                    Facebook
+                  </a>
                 </li>
                 <li>
                   <a href="#">Twitter</a>
@@ -116,16 +116,16 @@ const Canvas = ({ bladeMode }) => {
                     <div className="header_title">
                       <Link href={"/quick-accounting"}>HOME</Link>
                     </div>
-                    
+
                     <div className="header_title">
                       <Link href={"/about"}>ABOUT</Link>
                     </div>
                   </li>
                   <li>
                     <div className="header_title d-flex">
-                      <Link href={"/service-v6"}>SERVICE</Link> 
+                      <Link href={"/service-v6"}>SERVICE</Link>
                     </div>
-           
+
                     <div className="header_title">
                       <Link href={"/contact"}>CONTACT</Link>
                     </div>
@@ -150,9 +150,14 @@ const Canvas = ({ bladeMode }) => {
                   <a href="tel:+020 4542 0907">020 4542 0907</a>
                 </li>
                 <li>
-                  <a href="info@quick-accounting.co.uk">info@quick-accounting.co.uk</a>
+                  <a href="info@quick-accounting.co.uk">
+                    info@quick-accounting.co.uk
+                  </a>
                 </li>
-                <li>48, Myrtle Road, <br />London RM3 8XS.</li>
+                <li>
+                  Office 3, 5th Floor, Lambourne House, 7 Western Road, <br />
+                  Romford, England, RM1 3LP
+                </li>
               </ul>
             </div>
             <Image

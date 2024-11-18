@@ -1,3 +1,5 @@
+/** @format */
+
 import React from "react";
 
 const Contact1 = () => {
@@ -37,11 +39,15 @@ const Contact1 = () => {
                     <a href="tel:+020 4542 0907">020 4542 0907</a>
                   </li>
                   <li>
-                    <a href="info@quick-accounting.co.uk">info@quick-accounting.co.uk</a>
+                    <a href="info@quick-accounting.co.uk">
+                      info@quick-accounting.co.uk
+                    </a>
                   </li>
                   <li>
                     <span>
-                    48, Myrtle Road, <br /> London RM3 8XS.
+                      Office 3, 5th Floor, Lambourne House, 7 Western Road,
+                      <br />
+                      Romford, England, RM1 3LP
                     </span>
                   </li>
                 </ul>

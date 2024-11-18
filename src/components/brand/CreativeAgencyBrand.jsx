@@ -69,8 +69,8 @@ const CreativeAgencyBrand = () => {
                 <div className="brand__item-2 fade_bottom">
                   <Image
                     priority
-                    width={97}
-                    height={67}
+                    width={200}
+                    height={60}
                     src={Brand1}
                     alt="Brand Logo"
                   />
@@ -78,8 +78,8 @@ const CreativeAgencyBrand = () => {
                 <div className="brand__item-2 fade_bottom">
                   <Image
                     priority
-                    width={85}
-                    height={67}
+                    width={80}
+                    height={70}
                     src={Brand2}
                     alt="Brand Logo"
                   />
@@ -87,7 +87,7 @@ const CreativeAgencyBrand = () => {
                 <div className="brand__item-2 fade_bottom">
                   <Image
                     priority
-                    width={114}
+                    width={100}
                     height={64}
                     src={Brand3}
                     alt="Brand Logo"
