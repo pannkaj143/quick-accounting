@@ -13,7 +13,7 @@ const AboutStory = () => {
           <span className="line-3"></span>
           <div className="sec-title-wrapper">
             <div className="from-text">
-              from <span>2022</span>
+              from <span>2017</span>
             </div>
 
             <div className="row">
