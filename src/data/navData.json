@@ -2,7 +2,7 @@
   "nav": [
     {
       "nav_name": "Home",
-      "link": "/quick-accounting",
+      "link": "/",
       "type": "",
       "full_width": false,
       "sub_nav": []
