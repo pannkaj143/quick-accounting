@@ -8,7 +8,7 @@ const CreativeAgencyLogo = () => {
   return (
     <>
       <div className="header__logo-2">
-        <Link href={"/quick-accounting"} className="logo-dark">
+        <Link href={"/"} className="logo-dark">
           <Image
             priority
             width={140}
@@ -17,7 +17,7 @@ const CreativeAgencyLogo = () => {
             alt="Site Logo"
           />
         </Link>
-        <Link href={"/quick-accounting"} className="logo-light">
+        <Link href={"/"} className="logo-light">
           <Image
             priority
             width={140}
