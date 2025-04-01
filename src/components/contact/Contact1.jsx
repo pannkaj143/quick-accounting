@@ -70,16 +70,14 @@ const Contact1 = () => {
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
               <div className="sec-title-wrapper">
                 <h2 className="sec-title-2 animation__char_come">
-                  Let's get in touch
+                  Let&apos;s get in touch
                 </h2>
               </div>
             </div>
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
               <div className="contact__text">
                 <p>
-                  {
-                    "Wonderful! We are eagerly awaiting your contact and are enthusiastic about commencing a remarkable partnership."
-                  }
+                  Wonderful! We are eagerly awaiting your contact and are enthusiastic about commencing a remarkable partnership.
                 </p>
               </div>
             </div>
@@ -88,7 +86,7 @@ const Contact1 = () => {
             <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
               <div className="contact__info">
                 <h3 className="sub-title-anim-top animation__word_come">
-                  {"Please don't hesitate to"}
+                  Please don&apos;t hesitate to
                   <br />
                   reach out
                 </h3>
@@ -116,7 +114,7 @@ const Contact1 = () => {
                 {isSuccess ? (
                   <div className="success-message p-4 mb-4 bg-success text-white rounded">
                     <h4>Thank you for your message!</h4>
-                    <p>We've received your inquiry and will get back to you shortly.</p>
+                    <p>We&apos;ve received your inquiry and will get back to you shortly.</p>
                     <button 
                       className="btn btn-light mt-3"
                       onClick={() => setIsSuccess(false)}
