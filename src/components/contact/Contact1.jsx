@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import emailjs from "@emailjs/browser";
 
 const Contact1 = () => {
   const [formData, setFormData] = useState({
@@ -11,6 +10,8 @@ const Contact1 = () => {
   });
 
   const [status, setStatus] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isSuccess, setIsSuccess] = useState(false);
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -18,30 +19,45 @@ const Contact1 = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
-    const serviceID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
-    const templateID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
-    const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
+    setIsSubmitting(true);
+    setStatus("");
+    setIsSuccess(false);
 
     try {
-      await emailjs.send(
-        serviceID,
-        templateID,
-        {
-          from_name: formData.name,
-          from_email: formData.email,
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          access_key: process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY,
+          name: formData.name,
+          email: formData.email,
           phone: formData.phone,
           subject: formData.subject,
           message: formData.message,
-        },
-        publicKey
-      );
+          from_name: "Quick Accounting Contact Form", // Add a descriptive name for email subject
+        }),
+      });
 
-      setStatus("Your message has been sent successfully!");
-      setFormData({ name: "", email: "", phone: "", subject: "", message: "" });
+      const result = await response.json();
+      
+      if (result.success) {
+        setIsSuccess(true);
+        setStatus("Your message has been sent successfully!");
+        setFormData({ name: "", email: "", phone: "", subject: "", message: "" });
+      } else {
+        setIsSuccess(false);
+        setStatus("Failed to send your message. Please try again later.");
+        console.error("Form submission error:", result);
+      }
     } catch (error) {
-      console.error("Failed to send email:", error);
-      setStatus("Failed to send your message. Please try again later.");
+      setIsSuccess(false);
+      console.error("Failed to send message:", error);
+      setStatus("An error occurred. Please try again later.");
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
@@ -54,7 +70,7 @@ const Contact1 = () => {
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
               <div className="sec-title-wrapper">
                 <h2 className="sec-title-2 animation__char_come">
-                  Let’s get in touch
+                  Let's get in touch
                 </h2>
               </div>
             </div>
@@ -97,72 +113,95 @@ const Contact1 = () => {
             </div>
             <div className="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
               <div className="contact__form">
-                <form onSubmit={handleSubmit}>
-                  <div className="row g-3">
-                    <div className="col-xxl-6 col-xl-6 col-12">
-                      <input
-                        type="text"
-                        name="name"
-                        placeholder="Name *"
-                        value={formData.name}
-                        onChange={handleChange}
-                      />
-                    </div>
-                    <div className="col-xxl-6 col-xl-6 col-12">
-                      <input
-                        type="email"
-                        name="email"
-                        placeholder="Email *"
-                        value={formData.email}
-                        onChange={handleChange}
-                      />
-                    </div>
+                {isSuccess ? (
+                  <div className="success-message p-4 mb-4 bg-success text-white rounded">
+                    <h4>Thank you for your message!</h4>
+                    <p>We've received your inquiry and will get back to you shortly.</p>
+                    <button 
+                      className="btn btn-light mt-3"
+                      onClick={() => setIsSuccess(false)}
+                    >
+                      Send another message
+                    </button>
                   </div>
-                  <div className="row g-3">
-                    <div className="col-xxl-6 col-xl-6 col-12">
-                      <input
-                        type="tel"
-                        name="phone"
-                        placeholder="Phone"
-                        value={formData.phone}
-                        onChange={handleChange}
-                      />
-                    </div>
-                    <div className="col-xxl-6 col-xl-6 col-12">
-                      <input
-                        type="text"
-                        name="subject"
-                        placeholder="Subject *"
-                        value={formData.subject}
-                        onChange={handleChange}
-                      />
-                    </div>
-                  </div>
-                  <div className="row g-3">
-                    <div className="col-12">
-                      <textarea
-                        name="message"
-                        placeholder="Messages *"
-                        value={formData.message}
-                        onChange={handleChange}
-                      ></textarea>
-                    </div>
-                  </div>
-                  <div className="row g-3">
-                    <div className="col-12">
-                      <div className="btn_wrapper">
-                        <button
-                          type="submit"
-                          className="wc-btn-primary btn-hover btn-item"
-                        >
-                          <span></span> Send <br />
-                          Messages <i className="fa-solid fa-arrow-right"></i>
-                        </button>
+                ) : (
+                  <form onSubmit={handleSubmit}>
+                    <div className="row g-3">
+                      <div className="col-xxl-6 col-xl-6 col-12">
+                        <input
+                          type="text"
+                          name="name"
+                          placeholder="Name *"
+                          value={formData.name}
+                          onChange={handleChange}
+                          required
+                        />
+                      </div>
+                      <div className="col-xxl-6 col-xl-6 col-12">
+                        <input
+                          type="email"
+                          name="email"
+                          placeholder="Email *"
+                          value={formData.email}
+                          onChange={handleChange}
+                          required
+                        />
                       </div>
                     </div>
-                  </div>
-                </form>
-                {status && <p>{status}</p>}
+                    <div className="row g-3">
+                      <div className="col-xxl-6 col-xl-6 col-12">
+                        <input
+                          type="tel"
+                          name="phone"
+                          placeholder="Phone"
+                          value={formData.phone}
+                          onChange={handleChange}
+                        />
+                      </div>
+                      <div className="col-xxl-6 col-xl-6 col-12">
+                        <input
+                          type="text"
+                          name="subject"
+                          placeholder="Subject *"
+                          value={formData.subject}
+                          onChange={handleChange}
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div className="row g-3">
+                      <div className="col-12">
+                        <textarea
+                          name="message"
+                          placeholder="Messages *"
+                          value={formData.message}
+                          onChange={handleChange}
+                          required
+                        ></textarea>
+                      </div>
+                    </div>
+                    <div className="row g-3">
+                      <div className="col-12">
+                        <div className="btn_wrapper">
+                          <button
+                            type="submit"
+                            className="wc-btn-primary btn-hover btn-item"
+                            disabled={isSubmitting}
+                          >
+                            <span></span> 
+                            {isSubmitting ? "Sending..." : "Send Messages"} 
+                            <i className="fa-solid fa-arrow-right"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    {status && !isSuccess && (
+                      <div className="form-status mt-3 text-danger">
+                        {status}
+                      </div>
+                    )}
+                  </form>
+                )}
               </div>
             </div>
           </div>
