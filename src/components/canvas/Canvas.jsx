@@ -64,7 +64,7 @@ const Canvas = ({ bladeMode }) => {
               <Link href="/quick-accounting">
                 <Image
                   priority
-                  style={{ width: "140px", height: "60px" }}
+                  style={{ width: "120px", height: "60px" }}
                   src={logoWhite2}
                   alt="Offcanvas Logo"
                 />
@@ -155,7 +155,7 @@ const Canvas = ({ bladeMode }) => {
                   </a>
                 </li>
                 <li>
-                  Office 3, 5th Floor, Lambourne House, 7 Western Road, <br />
+                Office 3, 5th Floor, Lambourne House, Western Road, <br />
                   Romford, England, RM1 3LP
                 </li>
               </ul>

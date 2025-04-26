@@ -64,21 +64,7 @@ const CreativeAgencyService = () => {
           <div className="row">
             <div className="col-xxl-12">
               <div className="service__items-7 animation_service_7">
-                <div className="service__item-7">
-                  <Link href="/contact">
-                    <h3 className="service__title-7">
-                    Company<span>Incorporation</span>
-                    </h3>
-                  </Link>
-                  <p>
-                  Supporting company registration, ensuring Companies House compliance for entrepreneurs and businesses.
-                  </p>
-                  <ul>
-                    <li>+ Company Formation</li>
-                    <li>+ Regulatory Compliance</li>
-                    <li>+ Shareholder Agreements</li>
-                  </ul>
-                </div>
+               
                 <div className="service__item-7">
                   <Link href="/contact">
                     <h3 className="service__title-7">

@@ -34,7 +34,7 @@ const CreativeAgencyFooter = () => {
                     <p>
                       Office 3, 5th Floor, Lambourne House,
                       <br />
-                      7 Western Road,
+                      Western Road,
                       <br />
                       Romford, England, RM1 3LP
                     </p>

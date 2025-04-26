@@ -101,7 +101,7 @@ const Contact1 = () => {
                   </li>
                   <li>
                     <span>
-                      Office 3, 5th Floor, Lambourne House, 7 Western Road,
+                      Office 3, 5th Floor, Lambourne House, Western Road,
                       <br />
                       Romford, England, RM1 3LP
                     </span>

@@ -11,7 +11,7 @@ const CreativeAgencyLogo = () => {
         <Link href={"/"} className="logo-dark">
           <Image
             priority
-            width={140}
+            width={120}
             height={60}
             src={LogoBlack}
             alt="Site Logo"
@@ -20,7 +20,7 @@ const CreativeAgencyLogo = () => {
         <Link href={"/"} className="logo-light">
           <Image
             priority
-            width={140}
+            width={120}
             height={60}
             src={LogoWhite2}
             alt="Site Logo"
