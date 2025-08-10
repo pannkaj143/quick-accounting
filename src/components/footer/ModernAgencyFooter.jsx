@@ -1,5 +1,5 @@
 import React from "react";
-import { FreeMode, Autoplay } from "swiper";
+import { FreeMode, Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import ArrowRight from "../../../public/assets/imgs/portfolio/11/arrow-right.png";
 import Link from "next/link";

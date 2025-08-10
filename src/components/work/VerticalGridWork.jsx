@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Tilt from "react-parallax-tilt";
-import { FreeMode, Autoplay } from "swiper";
+import { FreeMode, Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { gsap } from "gsap";
 import { ScrollTrigger, ScrollSmoother } from "@/plugins";

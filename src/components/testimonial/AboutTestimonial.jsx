@@ -1,7 +1,7 @@
 /* eslint-disable */
 
 import React from "react";
-import { FreeMode, Navigation } from "swiper";
+import { FreeMode, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles

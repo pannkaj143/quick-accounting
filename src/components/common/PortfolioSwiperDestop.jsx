@@ -6,7 +6,7 @@ import {
   Navigation,
   Thumbs,
   FreeMode,
-} from "swiper";
+} from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import Portfolio1 from "../../../public/assets/imgs/portfolio/1.png";

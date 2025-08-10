@@ -1,5 +1,5 @@
 import React from "react";
-import { FreeMode } from "swiper";
+import { FreeMode } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { gsap } from "gsap";
 import Team1 from "../../../public/assets/imgs/team/1.jpg";

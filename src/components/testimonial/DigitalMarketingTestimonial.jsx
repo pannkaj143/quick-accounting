@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "@/plugins";
-import { Navigation, FreeMode } from "swiper";
+import { Navigation, FreeMode } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Testimonial31 from "../../../public/assets/imgs/testimonial/3/1.jpg";
 import Testimonial32 from "../../../public/assets/imgs/testimonial/3/2.jpg";

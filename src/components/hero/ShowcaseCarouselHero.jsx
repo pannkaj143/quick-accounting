@@ -1,5 +1,5 @@
 import React from "react";
-import { Mousewheel, Navigation, Pagination, Keyboard } from "swiper";
+import { Mousewheel, Navigation, Pagination, Keyboard } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Portfolio26 from "../../../public/assets/imgs/hero/portfolio-2/6.jpg";
 import Portfolio27 from "../../../public/assets/imgs/hero/portfolio-2/7.jpg";

@@ -1,5 +1,5 @@
 import React from "react";
-import { FreeMode, Autoplay } from "swiper";
+import { FreeMode, Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles

@@ -1,5 +1,5 @@
 import React from "react";
-import { FreeMode, Navigation, Pagination } from "swiper";
+import { FreeMode, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Testimonial41 from "../../../public/assets/imgs/testimonial/4/1.jpg";
 import Testimonial42 from "../../../public/assets/imgs/testimonial/4/2.jpg";

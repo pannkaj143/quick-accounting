@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React, { useState } from "react";
-import { Navigation, Thumbs, FreeMode } from "swiper";
+import { Navigation, Thumbs, FreeMode } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import Portfolio1 from "../../../public/assets/imgs/portfolio/1.png";

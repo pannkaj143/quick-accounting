@@ -1,5 +1,5 @@
 import React from "react";
-import { Navigation, Pagination, Autoplay, EffectFade } from "swiper";
+import { Navigation, Pagination, Autoplay, EffectFade } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Portfilio31 from "../../../public/assets/imgs/portfolio/3/1.jpg";
 import Portfilio32 from "../../../public/assets/imgs/portfolio/3/2.jpg";

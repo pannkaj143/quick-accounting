@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { FreeMode } from "swiper";
+import { FreeMode } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "@/plugins";

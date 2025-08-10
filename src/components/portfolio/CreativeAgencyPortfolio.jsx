@@ -1,5 +1,5 @@
 import React from "react";
-import { FreeMode } from "swiper";
+import { FreeMode } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Home7P1 from "../../../public/assets/imgs/home-7/p1.jpg";
 import Home7P2 from "../../../public/assets/imgs/home-7/p2.jpg";
