@@ -8,6 +8,7 @@ export { default as Switcher } from "./common/Switcher";
 export { default as ScrollTop } from "./common/ScrollTop";
 export { default as Preloader } from "./preloader/Preloader";
 export { default as ScrollSmootherComponents } from "./common/ScrollSmootherComponents";
+export { default as SEO } from "./common/SEO";
 
 // Creative Agency (home + shared chrome)
 export { default as CreativeAgencyHeader } from "./header/CreativeAgencyHeader";
