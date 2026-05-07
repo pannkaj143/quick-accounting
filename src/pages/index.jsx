@@ -1,5 +1,7 @@
+import Head from "next/head";
 import React, { useEffect, useState } from "react";
 import allNavData from "../data/navData.json";
+import businessSchema from "@/data/businessSchema.json";
 import $ from "jquery";
 import { Power2, gsap } from "gsap";
 import {
@@ -177,6 +179,12 @@ const CreativeAgency = () => {
         description="Accountants in Romford & East London serving small businesses, limited companies and sole traders. Tax, payroll, bookkeeping & accounts. Call 020 4542 0907."
         path="/"
       />
+      <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(businessSchema) }}
+        />
+      </Head>
       <main>
         <div className="has-smooth" id="has_smooth"></div>
         <Preloader />
