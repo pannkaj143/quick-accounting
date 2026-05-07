@@ -1,4 +1,3 @@
-import Head from "next/head";
 import React, { useEffect, useState } from "react";
 import $ from "jquery";
 import { Power2, gsap } from "gsap";
@@ -14,6 +13,7 @@ import {
   ScrollTop,
   Preloader,
   ScrollSmootherComponents,
+  SEO,
   DigitalAgencyHeader,
   Error1,
 } from "@/components";
@@ -177,16 +177,12 @@ const Error = () => {
   }, [mode]);
   return (
     <>
-      <Head>
-        <title>Error</title>
-        <meta name="description" content="Error Description" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link
-          rel="icon"
-          type="image/x-icon"
-          href="assets/imgs/logo/favicon.png"
-        />
-      </Head>
+      <SEO
+        title="Page Not Found — Quick Accounting Ltd"
+        description="The page you're looking for can't be found. Return to Quick Accounting Ltd, accountants in Romford & London, for tax, payroll and bookkeeping services."
+        path="/error"
+        noindex
+      />
       <main>
         <div className="has-smooth" id="has_smooth"></div>
         <ScrollSmootherComponents />

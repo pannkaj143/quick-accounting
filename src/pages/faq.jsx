@@ -1,4 +1,3 @@
-import Head from "next/head";
 import React, { useEffect, useState } from "react";
 import allNavData from "../data/navData.json";
 import $ from "jquery";
@@ -15,6 +14,7 @@ import {
   ScrollTop,
   Preloader,
   ScrollSmootherComponents,
+  SEO,
   CreativeAgencyHeader,
   CreativeAgencyFooter,
   Faq1,
@@ -182,16 +182,11 @@ const Faq = () => {
   }, [mode]);
   return (
     <>
-      <Head>
-        <title>Faq</title>
-        <meta name="description" content="Faq Description" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link
-          rel="icon"
-          type="image/x-icon"
-          href="assets/imgs/logo/favicon.png"
-        />
-      </Head>
+      <SEO
+        title="Accounting FAQs — Quick Accounting Ltd, Romford & London"
+        description="Common questions about tax, bookkeeping, payroll and limited company accounts answered by Quick Accounting Ltd, accountants in Romford and East London."
+        path="/faq"
+      />
       <main>
         <div className="has-smooth" id="has_smooth"></div>
         <ScrollSmootherComponents />

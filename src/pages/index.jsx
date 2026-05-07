@@ -1,4 +1,3 @@
-import Head from "next/head";
 import React, { useEffect, useState } from "react";
 import allNavData from "../data/navData.json";
 import $ from "jquery";
@@ -12,7 +11,8 @@ import {
 import {
   CursorAnimation,
   ScrollTop,
-  Preloader,        
+  Preloader,
+  SEO,
   CreativeAgencyHeader,
   CreativeAgencyHero,
   CreativeAgencyAbout,
@@ -172,16 +172,11 @@ const CreativeAgency = () => {
   }, [mode]);
   return (
     <div>
-      <Head>
-        <title>Quick Accounting Ltd</title>
-        <meta name="description" content="Quick Accounting" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link
-          rel="icon"
-          type="image/x-icon"
-          href="assets/imgs/logo/favicon.png"
-        />
-      </Head>
+      <SEO
+        title="Quick Accounting Ltd — Accountants in Romford & London"
+        description="Accountants in Romford & East London serving small businesses, limited companies and sole traders. Tax, payroll, bookkeeping & accounts. Call 020 4542 0907."
+        path="/"
+      />
       <main>
         <div className="has-smooth" id="has_smooth"></div>
         <Preloader />
