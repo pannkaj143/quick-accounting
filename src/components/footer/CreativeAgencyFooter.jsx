@@ -38,6 +38,15 @@ const CreativeAgencyFooter = () => {
                       <br />
                       Romford, England, RM1 3LD
                     </p>
+                    <p>
+                      <a
+                        href="https://maps.app.goo.gl/mVbKQiWtwHFxNYs69"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        View on Google Maps
+                      </a>
+                    </p>
                   </div>
                   <div className="location">
                     <h3>Contact</h3>
