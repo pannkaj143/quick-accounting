@@ -136,8 +136,8 @@ const CreativeAgencyService = () => {
                     </h3>
                   </Link>
                   <p>
-                  Every UK business is required to complete accounts on an annual basis. 
-                  These accounts are then used to calculate the amount of tax payable..
+                  Every UK business is required to complete accounts on an annual basis.
+                  These accounts are then used to calculate the amount of tax payable. Based in Romford, we support small businesses and sole traders across East London and Greater London with tax planning, bookkeeping, payroll and annual accounts.
                   </p>
                   <ul>
                     <li>+ Thorough Examination</li>

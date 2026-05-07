@@ -125,10 +125,11 @@ const CreativeAgencyHero = () => {
                   </h1>
                   <p className="animate_content">
                     {" "}
-                    Based in London, we offer friendly and personalized services
-                    tailored to your needs, including Business Accounts,
-                    Corporate/Personal Tax, Bookkeeping, Management Accounts,
-                    Construction Industry Scheem, Payroll, and VAT.
+                    Based in Romford and serving East London and Greater London, we
+                    offer friendly, personalised accounting for small businesses and
+                    sole traders — Business Accounts, Corporate &amp; Personal Tax,
+                    Bookkeeping, Management Accounts, Construction Industry Scheme,
+                    Payroll, and VAT.
                   </p>
                   <Image
                     priority

@@ -13,7 +13,7 @@ const Faq1 = () => {
               <div className="sec-title-wrapper">
                 <h2 className="sec-title-2 animation__char_come">FAQ</h2>
                 <p className="">
-                  Frequently asked question (FAQ) <br /> by prospective clients
+                  Frequently asked questions about accounting, tax and bookkeeping <br /> for businesses in Romford and London
                 </p>
               </div>
             </div>

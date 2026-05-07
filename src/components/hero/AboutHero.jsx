@@ -53,7 +53,7 @@ const AboutHero = () => {
                   <div className="hero__about-text title-anim">
                     <p>
                       {
-                        "We work closely with our clients and act for a broad range of business and personal clients."
+                        "Based in Romford, we work closely with small businesses and sole traders across East London and Greater London, supporting a broad range of business and personal clients."
                       }
                     </p>
                   </div>
