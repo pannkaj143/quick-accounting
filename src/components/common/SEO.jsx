@@ -2,7 +2,7 @@ import Head from "next/head";
 
 const SITE_URL = "https://www.quick-accounting.co.uk";
 const SITE_NAME = "Quick Accounting Ltd";
-const DEFAULT_OG_IMAGE = "/assets/imgs/logo/site-logo-white.png";
+const DEFAULT_OG_IMAGE = "/assets/imgs/logo/og-default.png";
 
 export default function SEO({
   title,
@@ -30,6 +30,9 @@ export default function SEO({
       <meta property="og:description" content={description} />
       <meta property="og:url" content={canonical} />
       <meta property="og:image" content={ogImageUrl} />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
+      <meta property="og:image:alt" content={`${SITE_NAME} logo`} />
       <meta property="og:locale" content="en_GB" />
 
       <meta name="twitter:card" content="summary_large_image" />

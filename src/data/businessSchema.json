@@ -3,7 +3,7 @@
   "@type": "AccountingService",
   "@id": "https://www.quick-accounting.co.uk/#business",
   "name": "Quick Accounting Ltd",
-  "image": "https://www.quick-accounting.co.uk/assets/imgs/logo/site-logo-white.png",
+  "image": "https://www.quick-accounting.co.uk/assets/imgs/logo/og-default.png",
   "url": "https://www.quick-accounting.co.uk/",
   "telephone": "+442045420907",
   "email": "info@quick-accounting.co.uk",
