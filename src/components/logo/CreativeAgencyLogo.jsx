@@ -4,27 +4,17 @@ import LogoWhite2 from "../../../public/assets/imgs/logo/site-logo-white-2.png";
 import LogoBlack from "../../../public/assets/imgs/logo/logo-black.png";
 import Image from "next/image";
 
+// Only `width` is set: next/image derives the height from the file's real
+// aspect ratio, so the logo is never squashed.
 const CreativeAgencyLogo = () => {
   return (
     <>
       <div className="header__logo-2">
         <Link href={"/"} className="logo-dark">
-          <Image
-            priority
-            width={120}
-            height={60}
-            src={LogoBlack}
-            alt="Site Logo"
-          />
+          <Image priority width={110} src={LogoBlack} alt="Site Logo" />
         </Link>
         <Link href={"/"} className="logo-light">
-          <Image
-            priority
-            width={120}
-            height={60}
-            src={LogoWhite2}
-            alt="Site Logo"
-          />
+          <Image priority width={110} src={LogoWhite2} alt="Site Logo" />
         </Link>
       </div>
     </>
