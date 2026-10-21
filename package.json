@@ -31,5 +31,6 @@
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^7.0.0",
     "sass": "^1.90.0"
-  }
+  },
+  "packageManager": "pnpm@12.14.0"
 }
