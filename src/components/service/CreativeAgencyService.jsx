@@ -145,6 +145,23 @@ const CreativeAgencyService = () => {
                     <li>+ Compliance Validation</li>
                   </ul>
                 </div>
+                <div className="service__item-7">
+                  <Link href="/contact">
+                    <h3 className="service__title-7">
+                      Making Tax <span>Digital</span>{" "}
+                    </h3>
+                  </Link>
+                  <p>
+                    MTD-compliant software setup and quarterly digital submissions
+                    to HMRC for VAT and Income Tax, keeping sole traders and landlords
+                    ready for every deadline.
+                  </p>
+                  <ul>
+                    <li>+ HMRC-recognised Software</li>
+                    <li>+ Quarterly Submissions</li>
+                    <li>+ Deadline Reminders</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>

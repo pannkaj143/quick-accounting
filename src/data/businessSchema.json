@@ -49,7 +49,8 @@
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bookkeeping" } },
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Payroll Management" } },
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Business Consulting" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Annual Financial Accounts" } }
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Annual Financial Accounts" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Making Tax Digital (MTD)" } }
     ]
   }
 }
